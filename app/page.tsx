@@ -1,7 +1,11 @@
+import SolanaKeyGenerator from "@/components/KeyGenerator";
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
     <main className="">
-      <h1>SolMint</h1>
+      <Navbar />
+      <SolanaKeyGenerator />
     </main>
   );
 }

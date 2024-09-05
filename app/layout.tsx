@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SolMint",
-  description: "A solana token launchpad",
+  description: "A Solana token launchpad",
 };
 
 export default function RootLayout({
