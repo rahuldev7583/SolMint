@@ -78,6 +78,7 @@ const SolanaKeyGenerator: React.FC = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold text-center">Create Token on Solana</h1>
+
       {!publicKey ? (
         <div className="md:mt-10 mt-20 text-center">
           <button

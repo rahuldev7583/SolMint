@@ -7,7 +7,6 @@ import {
   mintTo,
 } from "@solana/spl-token";
 import * as bs58 from "bs58";
-import Image from "next/image";
 
 const connection = new Connection(clusterApiUrl("devnet"));
 
